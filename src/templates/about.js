@@ -22,16 +22,8 @@ const About = () => (
                         <div className="w-24 h-1 mt-3 bg-blue-600"/>
                     </div>
                     <p className="mt-5 text-sm md:text-base lg:text-lg leading-loose">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Fugiat accusantium sapiente tempora sed dolore esse deserunt 
-                        eaque excepturi, delectus error accusamus vel eligendi, omnis 
-                        beatae. Quisquam, dicta. Eos quod quisquam esse recusandae 
-                        vitae neque dolore, obcaecati incidunt sequi blanditiis est 
-                        exercitationem molestiae delectus saepe odio eligendi modi 
-                        porro eaque in libero minus unde sapiente consectetur 
-                        architecto. Ullam rerum, nemo iste ex, eaque perspiciatis 
-                        nisi, eum totam velit saepe sed quos similique amet. Ex, 
-                        voluptate accusamus nesciunt totam vitae esse iste.
+                         Bundu (Jharkhand),a socially underdeveloped region, is predominantly inhabited by Scheduled Tribes (60%) and Scheduled caste (7%).
+                         Significant number of families in Bundu are artisan.  They are engaged in traditional value addition of bamboo and make engage make tokri, sup, daliya, tapa, kumni.  Initial surveys reveals that these products have been manufactured by them for generations and have not changed with respect to product design and offerings.This Ecommerce-portal is made to help those artisans to sell their handmade quality bamboo products to different states of India. 
                     </p>
                 </article>
             </div>
