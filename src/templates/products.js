@@ -126,7 +126,7 @@ export default function Products() {
                             </div>
                             {/* Companies */}
                             <div id="companies-form">
-                                <h5>Company</h5>
+                                <h5>Varieties</h5>
                                 <select className="mt-2" value={companyIndex} onChange={(e) => setCompanyIndex(parseInt(e.target.value))}>
                                     <option value={-1}>all</option>
                                     {
