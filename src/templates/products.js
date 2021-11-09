@@ -6,19 +6,19 @@ import ProductPanel from '../components/ProductPanel'
 import { StoreContext } from '../context'
 
 const CATEGORIES = [
-    'bedroom',
-    'office',
-    'kitchen',
-    'living room',
-    'kids',
-    'dining'
+    'Tokri',
+    'Sup',
+    'Dalia',
+    'Tapa',
+    'Kumni',
+    'Furniture'
 ]
 
 const COMPANIES = [
-    'ikea',
-    'marcos',
-    'liddy',
-    'caressa'
+    'Bambusa strita',
+    'Bambusa tulda',
+    'Bambusa Polymorpha',
+    'Bambusa balcooa'
 ]
 
 const COLORS = [
