@@ -12,9 +12,9 @@ const About = () => (
             <div className="tw-container grid grid-cols-1 lg:grid-cols-2 gap-y-8 gap-x-16">
                 <img
                     style={{height: '450px'}}
-                    alt="dining room"
+                    alt="bambooproducts"
                     className="object-cover rounded w-full bg-gray-100"
-                    src='https://react-course-comfy-sloth-store.netlify.app/static/media/hero-bcg.a876f19f.jpeg'
+                    src='https://sendeyo.com/updownload/file/script/44ec04697f69748a39dc502498c9f046.webp'
                 />
                 <article>
                     <div>
