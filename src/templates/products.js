@@ -14,7 +14,7 @@ const CATEGORIES = [
     'Furniture'
 ]
 
-const VARIETIES= [
+const COMPANIES= [
     'Bambusa strita',
     'Bambusa tulda',
     'Bambusa Polymorpha',
@@ -46,7 +46,7 @@ export default function Products() {
         if(
             (query.trim() !== '' && !product.name.includes(query.trim().toLowerCase())) ||
             ((categoryIndex > -1 && categoryIndex < 6) && product.category !== CATEGORIES[categoryIndex]) ||
-            ((companyIndex > -1 && companyIndex < 4) && product.company !== VARIETIES[companyIndex]) ||
+            ((companyIndex > -1 && companyIndex < 4) && product.company !== COMPANIES[companyIndex]) ||
             ((colorIndex > -1 && colorIndex < 5) && product.colors.find(c => c !== COLORS[colorIndex])) ||
             (product.price > price) ||
             (freeShipping && (!product.hasOwnProperty('shipping') || !product.shipping))
@@ -130,7 +130,7 @@ export default function Products() {
                                 <select className="mt-2" value={companyIndex} onChange={(e) => setCompanyIndex(parseInt(e.target.value))}>
                                     <option value={-1}>all</option>
                                     {
-                                        VARIETIES.map((company, i) => (
+                                        COMPANIES.map((company, i) => (
                                             <option key={i} value={i}>{company}</option>
                                         ))
                                     }
