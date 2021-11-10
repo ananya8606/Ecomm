@@ -78,7 +78,7 @@ const Home = () => (
                     <Panel
                         id="rec3jeKnhInKHJuz2"
                         name="Bamboo Furniture"
-                        image="https://sendeyo.com/updownload/file/script/bae7f58559758fdc92dddc450aa38f33.webp"
+                        image="https://sendeyo.com/updownload/file/script/cc685573fd6325aa75881824f68ce691.webp "
                         price={12}
                     />
                     <Panel
