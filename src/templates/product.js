@@ -9,7 +9,7 @@ import ColorSelector from '../components/ColorSelector'
 import Loader from '../components/Loader'
 
 export default function Product({id}) {
-    const {response: product, error } = useFetch(` https://api.jsonbin.io/b/618b964f4a56fb3dee0c60f8/7' )
+    const {response: product, error } = useFetch(`https://api.jsonbin.io/b/618b964f4a56fb3dee0c60f8/7`)
 
     const history = useHistory();
     const { setCart } = useContext(StoreContext)
@@ -110,7 +110,7 @@ export default function Product({id}) {
                                     <span className="font-bold">SKU :</span>
                                     {id}
                                 </p>
-                                <p className="grid grid-cols-2grid-cols-2">
+                                <p className="grid grid-cols-2">
                                     <span className="font-bold">Brand :</span>
                                     {company}
                                 </p>
