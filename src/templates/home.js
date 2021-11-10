@@ -49,10 +49,8 @@ const Home = () => (
                         Comfort Zone
                     </h1>
                     <p className="mt-8 max-w-lg leading-loose ">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Iusto, at sed omnis corporis doloremque possimus velit! 
-                        Repudiandae nisi odit, aperiam odio ducimus, obcaecati libero 
-                        et quia tempora excepturi quis alias?
+                        Welcome to Ecomm.
+                   Here you can find most creative,unique and cheap hand made Bamboo products . 
                     </p>
                     <Link to="/products" className="btn px-6 py-3 bg-blue-500 text-white w-full md:w-max text-center mt-8">Shop Now</Link>
                 </article>
@@ -63,12 +61,12 @@ const Home = () => (
                             height: '550px',
                         }}
                         className="object-cover bg-gray-100 w-full rounded-md"
-                        src="https://react-course-comfy-sloth-store.netlify.app/static/media/hero-bcg.a876f19f.jpeg"
+                        src="https://sendeyo.com/updownload/file/script/eb3d7c616f38c5b3ac4da3a63cf32dbb.webp"
                     />
                     <img
                         alt="media-shelves-room"
                         className="z-30 bg-gray-100 transform -translate-x-2/4 absolute left-0 bottom-0  w-5/12 h-40 rounded-md"
-                        src="https://dl.airtable.com/.attachments/d42fd61c4d1ae2a02afe29114bd0fef3/d312dda5/product-2.jpg"
+                        src=" https://sendeyo.com/updownload/file/script/99d6cb45f6da59fe889d6407d40a1afd.webp"
                     />
                 </article>
             </div>
@@ -82,21 +80,21 @@ const Home = () => (
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     <Panel
                         id="rec3jeKnhInKHJuz2"
-                        name="vase table"
-                        image="https://dl.airtable.com/.attachments/599ba19cf24d2114fea3c93d40c4e34c/46b486f1/vase-table.jpeg"
-                        price={120999}
+                        name="Bamboo Furniture"
+                        image="https://sendeyo.com/updownload/file/script/97b572dd2e16edfe55f5534c95faa86d.webp "
+                        price={12}
                     />
                     <Panel
                         id="rec7JInsuCEHgmaGe"
-                        name="Utopia Sofa"
-                        image="https://dl.airtable.com/.attachments/799a334af47039d9d0482f51f77675e9/bceadec0/product-3.jpg"
-                        price={79999}
+                        name="Bamboo Charcoal"
+                        image="https://sendeyo.com/updownload/file/script/5979dab43ecc34dd85a1207217b1e37a.webp"
+                        price={7}
                     />
                     <Panel
                         id="recNZ0koOqEmilmoz"
-                        name="Entertainment Center"
-                        image="https://dl.airtable.com/.attachments/d42fd61c4d1ae2a02afe29114bd0fef3/d312dda5/product-2.jpg"
-                        price={59999}
+                        name="Bamboo flooring"
+                        image="https://sendeyo.com/updownload/file/script/5bec3161064f2ca2a11b9999627d7446.webp"
+                        price={15}
                     />
                 </div>
                 <button className="btn-sm md:btn mt-16 mx-auto bg-blue-500 text-blue-50 font-semibold">All Products</button>
@@ -143,9 +141,7 @@ const Home = () => (
                 <h2 className="font-bold">Join our newsletter and get 20% off</h2>
                 <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 items-center gap-x-32">
                     <p className="leading-7 mt-8 max-w-lg opacity-60">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Placeat sint unde quaerat ratione soluta veniam provident 
-                        adipisci cumque eveniet tempore?
+                        Fall in love with our bamboo products. 
                     </p>
                     <form className="mt-6 md:mt-0 grid grid-cols-1 md:grid-cols-2 md:border-2 border-blue-500 rounded w-full max-w-lg  text-base md:text-lg lg:text-xl" style={{gridTemplateColumns: '1fr auto'}}>
                         <input className="bg-gray-100 border border-blue-400 md:bg-transparent md:border-0 px-3 py-2 outline-none" type="email" placeholder="Enter Email"/>
