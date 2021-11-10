@@ -109,7 +109,7 @@ function Navbar() {
                     <div className="flex justify-between items-center">
                         <Link to="/" className="flex items-center gap-2 font-semibold text-white">
                             <i className="fa-2x fas fa-couch"></i>
-                            Digital Comfort
+                            Ecomm
                         </Link>
                         <span onClick={() => setMobileMenuOpen(false)} className="cursor-pointer text-3xl font-semibold">X</span>
                     </div>
