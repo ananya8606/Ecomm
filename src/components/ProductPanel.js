@@ -41,7 +41,7 @@ const ProductPanel = ({id, name, image, price, grid = true}) => {
                     <h4 className="font-bold">{name}</h4>
                     <p className="text-blue-500 tracking-widest font-semibold">{price.toCurrency()}</p>
                 </div>
-                <p>Cloud bread VHS hell of banjo bicycle rights jianbing umami mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher waistcoat, authentic ...</p>
+                <p>Handmade Bamboo Product</p>
                 <Link to={`/products/${id}`} className="btn bg-blue-500 text-white w-max text-xs">
                     Details
                 </Link>
