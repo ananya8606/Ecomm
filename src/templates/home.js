@@ -30,10 +30,7 @@ const ServiceBox = ({title, children}) => (
         <div>
             <h4 className="font-semibold">{title}</h4>
             <p className="mt-2 leading-7 w-full text-sm md:text-base lg:text-lg">
-                Lorem ipsum, dolor sit amet consectetur 
-                adipisicing elit. Voluptates, ea. Perferendis 
-                corrupti reiciendis nesciunt rerum velit autem 
-                unde numquam nisi
+                Welcome to Ecomm. 
             </p>
         </div>
     </div>
@@ -45,7 +42,7 @@ const Home = () => (
             <div className="tw-container grid lg:grid-cols-2 place-items-center gap-x-32">
                 <article>
                     <h1 className="tracking-wider font-bold text-4xl md:text-5xl">
-                        Design Your<br/>
+                       We design Your<br/>
                         Comfort Zone
                     </h1>
                     <p className="mt-8 max-w-lg leading-loose ">
@@ -81,7 +78,7 @@ const Home = () => (
                     <Panel
                         id="rec3jeKnhInKHJuz2"
                         name="Bamboo Furniture"
-                        image="https://sendeyo.com/updownload/file/script/8d30a23845bc1949549ef4f0da5ae6bd.webp"
+                        image="https://sendeyo.com/updownload/file/script/bae7f58559758fdc92dddc450aa38f33.webp"
                         price={12}
                     />
                     <Panel
