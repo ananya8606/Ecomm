@@ -81,7 +81,7 @@ const Home = () => (
                     <Panel
                         id="rec3jeKnhInKHJuz2"
                         name="Bamboo Furniture"
-                        image="https://sendeyo.com/updownload/file/script/97b572dd2e16edfe55f5534c95faa86d.webp "
+                        image="https://sendeyo.com/updownload/file/script/8d30a23845bc1949549ef4f0da5ae6bd.webp"
                         price={12}
                     />
                     <Panel
@@ -104,7 +104,7 @@ const Home = () => (
             <div className="transform py-20 xl:py-0 xl:translate-y-20 tw-container text-blue-50">
                 <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 items-center gap-y-4">
                     <h3 className="font-bold">Custom Furniture<br/>Built Only For You</h3>
-                    <p className="leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum debitis consectetur reprehenderit non aliquam voluptates dolore aut vero consequuntur.</p>
+                    <p className="leading-7">Handmade Bamboo Products</p>
                 </div>
                 <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 text-center gap-10">
                     <ServiceBox title="Mission">
