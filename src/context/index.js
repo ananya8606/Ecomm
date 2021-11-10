@@ -30,7 +30,7 @@ const StoreProvider = ({children}) => {
         setCategoryIndex(-1);
         setCompanyIndex(-1);
         setColorIndex(-1);
-        setPrice(309999)
+        setPrice(30)
         setFreeShipping(false)
     }
     
