@@ -6,7 +6,7 @@ import ProductPanel from '../components/ProductPanel'
 import { StoreContext } from '../context'
 
 const CATEGORIES = [
-    'bedroom',
+    'dalia',
     'office',
     'kitchen',
     'living room',
