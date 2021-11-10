@@ -6,12 +6,13 @@ import ProductPanel from '../components/ProductPanel'
 import { StoreContext } from '../context'
 
 const CATEGORIES = [
-    'tokri',
-    'sup'
+    'Tokri',
+    'Sup'
 ]
 
 const COMPANIES = [
-    'bundu'
+    'Bundu'
+
 ]
 
 const COLORS = [
