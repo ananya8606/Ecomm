@@ -110,7 +110,7 @@ export default function Product({id}) {
                                     <span className="font-bold">SKU :</span>
                                     {id}
                                 </p>
-                                <p className="grid grid-cols-2">
+                                <p className="grid grid-cols-2grid-cols-2">
                                     <span className="font-bold">Brand :</span>
                                     {company}
                                 </p>
