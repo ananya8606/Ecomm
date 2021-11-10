@@ -19,7 +19,7 @@ const StoreProvider = ({children}) => {
     const [sortByIndex, setSortByIndex] = useState(0)
     const [viewGrid, setViewGrid] = useState(true)
 
-    const {response: products, error } = useFetch('https://api.jsonbin.io/b/618bd230820eda3cc81b001f/2')
+    const {response: products, error } = useFetch('https://api.jsonbin.io/b/618bd230820eda3cc81b001f/4')
 
     if(error) return 'error....';
     
