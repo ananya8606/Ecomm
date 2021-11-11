@@ -76,19 +76,19 @@ const Home = () => (
                 </div>
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     <Panel
-                        id="rec3jeKnhInKHJuz2"
+                        id="12"
                         name="Bamboo Furniture"
                         image="https://sendeyo.com/updownload/file/script/cc685573fd6325aa75881824f68ce691.webp "
                         price={12}
                     />
                     <Panel
-                        id="rec7JInsuCEHgmaGe"
+                        id="13"
                         name="Bamboo Charcoal"
                         image="https://sendeyo.com/updownload/file/script/5979dab43ecc34dd85a1207217b1e37a.webp"
                         price={7}
                     />
                     <Panel
-                        id="recNZ0koOqEmilmoz"
+                        id="14"
                         name="Bamboo flooring"
                         image="https://sendeyo.com/updownload/file/script/5bec3161064f2ca2a11b9999627d7446.webp"
                         price={15}
