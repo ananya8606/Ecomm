@@ -71,7 +71,7 @@ function Navbar() {
             <div className="tw-container h-16 md:h-20 flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-2 font-semibold text-blue-500">
                     <i className="fa-2x fas fa-couch"></i>
-                    Digital Comfort
+                    Ecomm
                 </Link>
                 <nav className="hidden md:block">
                     <ul className="flex gap-8">
