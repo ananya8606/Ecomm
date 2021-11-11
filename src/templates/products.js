@@ -7,7 +7,10 @@ import { StoreContext } from '../context'
 
 const CATEGORIES = [
     'Tokri',
-    'Sup'
+    'Sup', 
+    'Bamboo Furniture', 
+    'Bamboo Charcoal', 
+    'Bamboo flooring'
 ]
 
 const COMPANIES = [
