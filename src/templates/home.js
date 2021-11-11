@@ -95,9 +95,9 @@ const Home = () => (
                         image="https://sendeyo.com/updownload/file/script/5bec3161064f2ca2a11b9999627d7446.webp"
                         price={15}
                     />
-                </div>
-                <button className="btn-sm md:btn mt-16 mx-auto bg-blue-500 text-blue-50 font-semibold">All Products</button>
-            </div>
+      
+
+
         </section>
         <section id="services" className="bg-blue-400">
             <div className="transform py-20 xl:py-0 xl:translate-y-20 tw-container text-blue-50">
