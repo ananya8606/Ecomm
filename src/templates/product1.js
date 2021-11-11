@@ -10,7 +10,7 @@ import ColorSelector from '../components/ColorSelector'
 import Loader from '../components/Loader'
 
 export default function Product({id}) {
-    const {response: product, error } = useFetch(`https://api.jsonbin.io/b/618c9602820eda3cc81b79ad/1 `)
+    const {response: product, error } = useFetch(`https://api.jsonbin.io/b/618c9602820eda3cc81b79ad/${id} `)
 
     const history = useHistory();
     const { setCart } = useContext(StoreContext)
