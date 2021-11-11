@@ -8,7 +8,7 @@ Demo: https://ecomm-xi.vercel.app/
 
 Click the screenshot given below:-
 
-[![ ](https://i.ibb.co/yB0k3Xk/Screenshot-2021-06-09-14-11-25-558-com-android-chrome.png )](https://youtu.be/ezVSU511EPY)
+[![ ](https://sendeyo.com/updownload/file/script/1e17d8c434775eb3a1b2334ca5d9c5f4.webp)](https://youtu.be/ezVSU511EPY)
 
 # Getting Started with Create React App
 
