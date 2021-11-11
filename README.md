@@ -1,8 +1,8 @@
 # React eCommerce App
 
-An eCommerce mockup of a furniture shop developed with ReactJS.
+An eCommerce portal for selling handmade bamboo products developed with ReactJS.
 
-Demo: https://ecommerce.brant.work/
+Demo: https://ecomm-xi.vercel.app/
 
 # Getting Started with Create React App
 
