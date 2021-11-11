@@ -30,7 +30,9 @@ const ServiceBox = ({title, children}) => (
         <div>
             <h4 className="font-semibold">{title}</h4>
             <p className="mt-2 leading-7 w-full text-sm md:text-base lg:text-lg">
-                Welcome to Ecomm. 
+                Supporting 
+www.TribesIndia.com - Tribes India
+
             </p>
         </div>
     </div>
