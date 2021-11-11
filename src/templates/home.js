@@ -96,7 +96,8 @@ const Home = () => (
                         price={15}
                     />
       
-
+</div>
+</div>
 
         </section>
         <section id="services" className="bg-blue-400">
