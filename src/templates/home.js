@@ -140,7 +140,7 @@ const Home = () => (
                 <h2 className="font-bold">Join our newsletter and get 20% off</h2>
                 <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 items-center gap-x-32">
                     <p className="leading-7 mt-8 max-w-lg opacity-60">
-                        Fall in love with our bamboo products. 
+                        Get daily updates about the new products. 
                     </p>
                     <form className="mt-6 md:mt-0 grid grid-cols-1 md:grid-cols-2 md:border-2 border-blue-500 rounded w-full max-w-lg  text-base md:text-lg lg:text-xl" style={{gridTemplateColumns: '1fr auto'}}>
                         <input className="bg-gray-100 border border-blue-400 md:bg-transparent md:border-0 px-3 py-2 outline-none" type="email" placeholder="Enter Email"/>
