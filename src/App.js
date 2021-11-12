@@ -16,6 +16,7 @@ import Product from './templates/product'
 import Cart from './templates/cart'
 import Checkout from './templates/checkout'
 import About from './templates/about'
+import contact from './templates/contact'
 
 // eslint-disable-next-line no-extend-native
 Number.prototype.toCurrency = function(){
@@ -39,6 +40,7 @@ function App() {
           <Route path="/cart" component={Cart}/>
           <Route path="/checkout" component={Checkout}/>
           <Route path="/about" component={About}/>
+          <Route path="/contact" component={contact}/>
           <Route path="*">
             <div className="tw-container text-center py-20">
               <h2 className="font-bold">404: Page Not Found</h2>
