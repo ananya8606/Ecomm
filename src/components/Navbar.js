@@ -132,6 +132,9 @@ function Navbar() {
                                 <NavLink to="/checkout">Checkout</NavLink>
                             </li>
                         }
+                        <li>
+                            <NavLink to="/contact">Contact us</NavLink>
+                        </li>
                     </ul>
                     <div className="mt-10 flex gap-8 justify-center">
                             <CartButton items={amount}/>
