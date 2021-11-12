@@ -90,6 +90,9 @@ function Navbar() {
                                 <NavLink to="/checkout">Checkout</NavLink>
                             </li>
                         }
+                         <li>
+                            <NavLink to="/contact.html">Contact us</NavLink>
+                        </li>
                     </ul>
                 </nav>
                 <div>
