@@ -98,7 +98,7 @@ export default function Cart() {
                                     </h6>
                                     <h6 className="grid" style={{gridTemplateColumns: '200px 1fr'}}>
                                         Shipping Fee:
-                                        <span>$5.34</span>
+                                        <span>$0.02</span>
                                     </h6>
                                     <hr className="my-4"/>
                                     <h4 className="grid" style={{gridTemplateColumns: '200px 1fr'}}>
