@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const contact = () => (
     <>
+<Breadcrumbs>
+            <Link to="/">Home</Link>
+            Contact us
+        </Breadcrumbs>
+        <section id="about">
     <div class="container my-3 my-sm-5">
       <h1 class="mb-sm-4 text-center">Contact</h1>
       <div class="row">
@@ -117,6 +122,7 @@ const contact = () => (
         </div>
       </div>
     </div>
+</section>
 </>
 )
 export default contact
