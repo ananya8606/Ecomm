@@ -30,7 +30,7 @@ export default function Cart() {
 
     const getSubtotal = () => {
         return cart.reduce((total, item) => {
-            total += (item.price * item.amount);
+            total += ((item.price*20) * item.amount);
             return total;
         }, 0);
     }
