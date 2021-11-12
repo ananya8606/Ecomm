@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function contact() {
-  return (
+const contact = () => (
+    <>
     <div class="container my-3 my-sm-5">
       <h1 class="mb-sm-4 text-center">Contact</h1>
       <div class="row">
@@ -117,6 +117,6 @@ function contact() {
         </div>
       </div>
     </div>
-);
-};
-export default contact;
+</>
+)
+export default contact
