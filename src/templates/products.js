@@ -157,7 +157,7 @@ export default function Products() {
                                     min={0} 
                                     max={500}
                                     onChange={(e) => setPrice(parseInt(e.currentTarget.value))}
-                                    value={price*20}
+                                    value={(price*20)}
                                 />
                             </div>
                             {/* Free Shipping */}
