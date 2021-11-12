@@ -21,7 +21,7 @@ const ProductPanel = ({id, name, image, price, grid = true}) => {
                 </div>
                 <footer className="flex justify-between items-center mt-4 capitalize">
                     <h6>{name}</h6>
-                    <p className="text-blue-500 tracking-widest">{price.toCurrency()}</p>
+                    <p className="text-blue-500 tracking-widest">{(price*20).toCurrency()}</p>
                 </footer>
             </article>
         )
