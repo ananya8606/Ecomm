@@ -91,7 +91,7 @@ function Navbar() {
                             </li>
                         }
                          <li>
-                            <NavLink to="/Contact.html">Contact us</NavLink>
+                            <NavLink to="/contact">Contact us</NavLink>
                         </li>
                     </ul>
                 </nav>
