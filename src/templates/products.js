@@ -155,7 +155,7 @@ export default function Products() {
                                 <input 
                                     type="range" 
                                     min={0} 
-                                    max={50}
+                                    max={25}
                                     onChange={(e) => setPrice(parseInt(e.currentTarget.value))}
                                     value={price}
                                 />
