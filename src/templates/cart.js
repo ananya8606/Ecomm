@@ -103,7 +103,7 @@ export default function Cart() {
                                     <hr className="my-4"/>
                                     <h4 className="grid" style={{gridTemplateColumns: '200px 1fr'}}>
                                         Order Total:
-                                        <span>{(getSubtotal() + 534).toCurrency()}</span>
+                                        <span>{(getSubtotal() + 002).toCurrency()}</span>
                                     </h4>
                                 </article>
                                 { isAuthenticated ?
