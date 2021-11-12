@@ -7,7 +7,7 @@ const contact = () => (
             <Link to="/">Home</Link>
             Contact us
         </Breadcrumbs>
-        <section id="about">
+        <section>
     <div class="container my-3 my-sm-5">
       <h1 class="mb-sm-4 text-center">Contact</h1>
       <div class="row">
