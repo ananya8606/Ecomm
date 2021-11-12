@@ -98,12 +98,12 @@ export default function Cart() {
                                     </h6>
                                     <h6 className="grid" style={{gridTemplateColumns: '200px 1fr'}}>
                                         Shipping Fee:
-                                        <span>$0.02</span>
+                                        <span>Rs.40</span>
                                     </h6>
                                     <hr className="my-4"/>
                                     <h4 className="grid" style={{gridTemplateColumns: '200px 1fr'}}>
                                         Order Total:
-                                        <span>{(getSubtotal() + 002).toCurrency()}</span>
+                                        <span>{(getSubtotal() + 40).toCurrency()}</span>
                                     </h4>
                                 </article>
                                 { isAuthenticated ?
