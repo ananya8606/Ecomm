@@ -107,7 +107,7 @@ export default function Product({id}) {
                                     {stock > 0 ? 'In Stock' : 'Out of Stock'}
                                 </p>
                                 <p className="grid grid-cols-2">
-                                    <span className="font-bold">SKU :</span>
+                                    <span className="font-bold">Id :</span>
                                     {id}
                                 </p>
                                 <p className="grid grid-cols-2">
