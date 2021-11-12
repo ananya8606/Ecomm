@@ -1,4 +1,5 @@
 import React from 'react'
+import Breadcrumbs from '../components/Breadcrumbs'
 import { Link } from 'react-router-dom'
 const contact = () => (
     <>
