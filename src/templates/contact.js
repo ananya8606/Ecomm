@@ -8,6 +8,10 @@ import './contact-section.css'
 
 const Contact = () => (
   <>
+<Breadcrumbs>
+            <Link to="/">Home</Link>
+            About
+        </Breadcrumbs>
     <div className="contact-section">
       <Form />
       <Info />
