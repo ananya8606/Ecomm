@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Icon } from '@iconify/react'
+import sendCircle from '@iconify/icons-mdi/send-circle'
 
 import './form.css'
 
@@ -45,7 +46,7 @@ const Form = () => (
       </label>
     ))}
 
-    <Icon className="form-submit"/>
+    <Icon className="form-submit" icon={sendCircle} />
 
     {/* <button className="form-submit" type="submit">
       Send message
