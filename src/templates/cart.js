@@ -66,10 +66,10 @@ export default function Cart() {
                                             <div>
                                                 <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
-                                                <div className="lg:hidden">{price.toCurrency()}</div>
+                                                <div className="lg:hidden">{(price*20).toCurrency()}</div>
                                             </div>
                                         </div>
-                                        <h5 className="hidden lg:block">{price.toCurrency()}</h5>
+                                        <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
                                             className="text-3xl md:text-4xl"
                                             count={amount}
