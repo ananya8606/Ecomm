@@ -151,13 +151,13 @@ export default function Products() {
                             {/* Price */}
                             <div id="price-range">
                                 <h5>Price</h5>
-                                <p className="mt-2">{(price*20).toCurrency()}</p>
+                                <p className="mt-2">{price.toCurrency()}</p>
                                 <input 
                                     type="range" 
                                     min={0} 
                                     max={500}
                                     onChange={(e) => setPrice(parseInt(e.currentTarget.value))}
-                                    value={price}
+                                    value={price*20}
                                 />
                             </div>
                             {/* Free Shipping */}
