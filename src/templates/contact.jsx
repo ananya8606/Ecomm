@@ -10,7 +10,7 @@ const Contact = () => (
   <>
 <Breadcrumbs>
             <Link to="/">Home</Link>
-            About
+            Contact us
         </Breadcrumbs>
     <div className="contact-section">
       <Form />
