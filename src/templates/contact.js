@@ -1,6 +1,5 @@
-import React from "react";
-import "./Home.css";
-import Product from "./Product";
+import React from 'react'
+import { Link } from 'react-router-dom'
 function contact() {
   return (
     <div class="container my-3 my-sm-5">
