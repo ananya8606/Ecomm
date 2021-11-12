@@ -1,8 +1,10 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css';
 import Breadcrumbs from '../components/Breadcrumbs'
 import { Link } from 'react-router-dom'
 const Contact = () => (
     <>
+
 <Breadcrumbs>
             <Link to="/">Home</Link>
             Contact us
