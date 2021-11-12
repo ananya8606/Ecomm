@@ -12,7 +12,7 @@ const StoreProvider = ({children}) => {
     const [categoryIndex, setCategoryIndex] = useState(-1)
     const [companyIndex, setCompanyIndex] = useState(-1)
     const [colorIndex, setColorIndex] = useState(-1)
-    const [price, setPrice] = useState(309999)
+    const [price, setPrice] = useState(30)
     const [freeShipping, setFreeShipping] = useState(false)
 
     // Store Grid
