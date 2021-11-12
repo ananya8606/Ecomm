@@ -126,4 +126,4 @@ const Contact = () => (
 </section>
 </>
 )
-export default contact
+export default Contact
