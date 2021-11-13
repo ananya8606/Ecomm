@@ -34,7 +34,7 @@ const renderIcons = () =>
 
 const Info = () => (
   <section className="info">
-    <h3 className="info-h2">Contact information</h2>
+    <h3 className="info-h2">Contact information</h3>
     <br>
     <div className="info-details-container"><h5><b>ECOMM HEAD OFFICE</b></h5>{renderContactDetails()}</div>
     <div className="info-icons-container">{renderIcons()}</div>
