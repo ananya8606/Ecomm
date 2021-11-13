@@ -1,6 +1,7 @@
 .contact-section {
   background-color: var(--white);
   width:100%;
+  padding:40px;
 }
 .center {
   margin-left:90px;
@@ -13,7 +14,7 @@
     display: grid;
     grid-template-columns: 3fr 1.5fr;
     width: 80vw;
-    height:475px;
+    height:200px;
     margin: 0 auto;
     top: var(--offset-height);
     left: 50%;
@@ -24,4 +25,7 @@
     overflow: hidden;
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.15);
   }
+.center {
+margin:5px;
+}
 }
