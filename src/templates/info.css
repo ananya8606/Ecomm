@@ -1,17 +1,13 @@
 .info {
   text-align:left;
-  padding:20px;
+  padding:10px;
   background-color: var(--main-green);
   color: var(--white);
 }
 
-.info-h2 {
-  text-transform:uppercase;
-  margin:10;
-}
 
 .info-details-container {
-  margin:10px 0px;
+  margin:20px 0px;
 }
 
 .info-detail {
