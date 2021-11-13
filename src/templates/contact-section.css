@@ -4,7 +4,7 @@
   padding:20 px;
 }
 .center {
-  margin-left:90px;
+ object-fit:contain;
 }
 
 @media screen and (min-width: 799px) {
