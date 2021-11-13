@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import GMap from './GMap';
 import Breadcrumbs from '../components/Breadcrumbs'
 import { Link } from 'react-router-dom'
 import Form from './Form'
 import Info from './Info'
 import './contact-section.css'
-import React, { useState, useEffect } from 'react';
-import GMap from './GMap';
 
 // API key of the google map
 const GOOGLE_MAP_API_KEY = '<ABQIAAAAvZMU4-DFRYtw1UlTj_zc6hT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQcT1h-VA8wQL5JBdsM5JWeJpukvw>';
