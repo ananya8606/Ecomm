@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import GMap from './GMap';
 
 // API key of the google map
-const GOOGLE_MAP_API_KEY = '<YOUR_GOOGLE_MAP_API_KEY>';
+const GOOGLE_MAP_API_KEY = '<ABQIAAAAvZMU4-DFRYtw1UlTj_zc6hT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQcT1h-VA8wQL5JBdsM5JWeJpukvw>';
 
 // load google map script
 const loadGoogleMapScript = (callback) => {
