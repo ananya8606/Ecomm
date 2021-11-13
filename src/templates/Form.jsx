@@ -45,8 +45,7 @@ const Form = () => (
         )}
       </label>
     ))}
-
-    <Icon className="form-submit" icon={sendCircle} />
+<Icon className="form-submit" icon={sendCircle} />
 
     {/* <button className="form-submit" type="submit">
       Send message
