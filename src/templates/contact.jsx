@@ -15,7 +15,6 @@ const Contact = () => (
     <div className="contact-section">
       <Form />
       <Info />
-      <Loadmap />
     </div>
   </>
 )
