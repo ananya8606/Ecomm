@@ -1,6 +1,6 @@
 .info {
   text-align:left;
-  padding:70px;
+  padding:100px;
   background-color: var(--main-green);
   color: var(--white);
 }
@@ -11,7 +11,7 @@
 }
 
 .info-details-container {
-  margin:5px 20px;
+  margin:5px 5px;
 }
 
 .info-detail {
