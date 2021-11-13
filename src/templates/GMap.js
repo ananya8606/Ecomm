@@ -1,61 +1,22 @@
-import React, { useEffect, useRef } from 'react';
-// API key of the google map
-const GOOGLE_MAP_API_KEY = '<ABQIAAAAvZMU4-DFRYtw1UlTj_zc6hT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQcT1h-VA8wQL5JBdsM5JWeJpukvw>';
-
-const GMap = ({ placeName }) => {
-  const googleMapRef = useRef();
-  let googleMap;
-  useEffect(() => {
-    const googleMapScript = document.createElement("script");
-    googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAP_API_KEY}`; 
-    googleMapScript.async = true;
-    window.document.body.appendChild(googleMapScript);
-    googleMapScript.addEventListener("load", () => {
-      getLatLng();
-    });
-  }, []);
-
-  const createGoogleMap = (coordinates) => {
-    googleMap = new window.google.maps.Map(googleMapRef.current, {
-      zoom: 16,
-      center: {
-        lat: coordinates.lat(),
-        lng: coordinates.lng(),
-      },
-      disableDefaultUI: true,
-    });
-  };
-  const getLatLng = () => {
-    let lat, lng, placeId;
-    new window.google.maps.Geocoder().geocode(
-      { address: `${placeName}` },
-      function (results, status) {
-        if (status === window.google.maps.GeocoderStatus.OK) {
-          placeId = results[0].place_id;
-          createGoogleMap(results[0].geometry.location);
-          lat = results[0].geometry.location.lat();
-          lng = results[0].geometry.location.lng();
-          new window.google.maps.Marker({
-            position: { lat, lng },
-            map: googleMap,
-            animation: window.google.maps.Animation.DROP,
-            title: `${placeName}`,
-          });
-        } else {
-          alert(
-            "Geocode was not successful for the following reason: " + status
-          );
-        }
-      }
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+export class Maps extends React.Component {
+  render() {
+    const mapStyles = {
+      width: "100%",
+      height: "100%",
+    };
+    return (
+      <Map
+        google={this.props.google}
+        zoom={8}
+        style={mapStyles}
+        initialCenter={{ lat: 9.761927, lng: 79.95244 }}
+      >
+        <Marker position={{ lat: 9.761927, lng: 79.95244 }} />
+      </Map>
     );
-  };
-  return (
-    <div
-      id="google-map"
-      ref={googleMapRef}
-      style={{ width: "400px", height: "300px" }}
-    />
-  );
-};
-
-export default GMap;
+  }
+}
+export default GoogleApiWrapper({
+  apiKey: "API_KEY=ROCHjzuh5szlxhgjh2duYDHjdg", 
+})(Maps);
