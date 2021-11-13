@@ -3,7 +3,6 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import { Link } from 'react-router-dom'
 import Form from './Form'
 import Info from './Info'
-import Loadmap from './Loadmap'
 import './contact-section.css'
 
 const Contact = () => (
