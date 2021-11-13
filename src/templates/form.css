@@ -39,8 +39,8 @@
 }
 
 .form-submit {
-  justify-self: end;
-  font-size: 5rem;
+  justify-self:end;
+  font-size:4rem;
   color: var(--main-green);
 }
 
