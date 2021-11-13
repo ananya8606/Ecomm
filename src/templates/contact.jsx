@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom'
 import Form from './Form'
 import Info from './Info'
 import './contact-section.css'
-
-
-
-  return (
+const Contact = () => (
 <>
     <Breadcrumbs>
             <Link to="/">Home</Link>
@@ -20,6 +17,5 @@ import './contact-section.css'
       {!loadMap ? <div>Loading...</div> : <GMap />}
     </div>
 </>
-  );
-}
-export default Contact;
+  )
+export default Contact
