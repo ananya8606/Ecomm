@@ -5,14 +5,13 @@
 }
 .center {
  object-fit:contain;
- width:100%;
 }
 
 @media screen and (min-width: 799px) {
   .contact-section {
     display: grid;
     grid-template-columns: 3fr 1.5fr;
-    width:100vw;
+    width:80vw;
     height:300px;
     margin: 0 auto;
     left: 50%;
@@ -25,7 +24,7 @@
 .center{
     margin: 0 auto;
     left: 50%;
-    width:100vw;
+    width:80vw;
     margin-left: -40vw;
     position: relative;
     border-radius: 5px;
