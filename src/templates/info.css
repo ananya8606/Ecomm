@@ -1,6 +1,6 @@
 .info {
   text-align:left;
-  padding:100px;
+  padding:20px;
   background-color: var(--main-green);
   color: var(--white);
 }
@@ -11,7 +11,7 @@
 }
 
 .info-details-container {
-  margin:5px 5px;
+  margin:10px 0px;
 }
 
 .info-detail {
@@ -20,7 +20,7 @@
 
 .info-icons-container {
   display: flex;
-  width: 100%;
+  width:100%;
 }
 
 .info-icon {
