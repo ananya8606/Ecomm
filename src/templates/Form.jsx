@@ -5,12 +5,12 @@ import sendCircle from '@iconify/icons-mdi/send-circle'
 import './form.css'
 
 const formInputs = [
-  { id: 'name', type: 'text', label: 'Your name', placeholder: 'John Doe' },
+  { id: 'name', type: 'text', label: 'Your name', placeholder: 'Full Name' },
   {
     id: 'tel',
     type: 'tel',
     label: 'Phone number',
-    placeholder: '+01 234 567 8900',
+    placeholder: '+91 xxxxxxxxxx',
   },
   {
     id: 'email',
