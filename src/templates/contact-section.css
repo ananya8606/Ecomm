@@ -1,7 +1,7 @@
 .contact-section {
   background-color: var(--white);
   width:100%;
-  padding:40px;
+  padding:100px;
 }
 .center {
   margin-left:90px;
@@ -10,7 +10,6 @@
 @media screen and (min-width: 799px) {
   .contact-section {
     --offset-height: -100px;
-
     display: grid;
     grid-template-columns: 3fr 1.5fr;
     width: 80vw;
@@ -25,7 +24,4 @@
     overflow: hidden;
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.15);
   }
-.center {
-margin:5px;
-}
 }
