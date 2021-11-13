@@ -1,5 +1,5 @@
 import React from 'react';
-import GMap from './GMap';
+import Maps from './GMap';
 import Breadcrumbs from '../components/Breadcrumbs'
 import { Link } from 'react-router-dom'
 import Form from './Form'
@@ -14,7 +14,7 @@ const Contact = () => (
     <div className="contact-section">
       <Form />
       <Info />
-      <GMap />
+      <Maps />
     </div>
 </>
   )
