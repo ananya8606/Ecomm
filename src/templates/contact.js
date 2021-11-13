@@ -38,10 +38,7 @@ const Contact = () => {
     <div className="contact-section">
       <Form />
       <Info />
-      <a href="https://www.cluemediator.com">Clue Mediator</a><br /><br />
       {!loadMap ? <div>Loading...</div> : <GMap />}
-      <br/><br/>
-      <small><b>Note:</b>In order to make it work, you have to set the YOUR_GOOGLE_MAP_API_KEY in App.js file. </small>
     </div>
   );
 }
