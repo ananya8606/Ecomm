@@ -4,7 +4,7 @@ const GMap = () => {
   const googleMapRef = useRef(null);
 googleMap = useRef(null);
   useEffect(() => {
-   const googleMap = initGoogleMap();
+    googleMap = initGoogleMap();
     createMarker();
   }, []);
 
