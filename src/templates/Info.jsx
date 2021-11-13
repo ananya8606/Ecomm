@@ -13,7 +13,7 @@ import './info.css'
 
 const contactDetails = [
   {
-    value: '1600 Amphitheatre Parkway, Mountain View, california.',
+    value: 'DIC Campus Ratu Road,Ranchi - JH 834001,INDIA.',
     icon: locationIcon,
   },
   { value: '+1 234 567 8900', icon: phoneIcon },
@@ -35,9 +35,8 @@ const renderIcons = () =>
 const Info = () => (
   <section className="info">
     <h2 className="info-h2">Contact information</h2>
-
+    <h4>ECOMM HEAD OFFICE</h4>
     <div className="info-details-container">{renderContactDetails()}</div>
-
     <div className="info-icons-container">{renderIcons()}</div>
   </section>
 )
