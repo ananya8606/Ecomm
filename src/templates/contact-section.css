@@ -1,6 +1,6 @@
 .contact-section {
   background-color: var(--white);
-  width: 100%;
+  width:100%;
   padding:60px;
 }
 
@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: 3fr 1.5fr;
     width: 80vw;
-    height:575px;
+    height:900px;
     margin: 0 auto;
     top: var(--offset-height);
     left: 50%;
