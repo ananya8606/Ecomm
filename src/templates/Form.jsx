@@ -28,8 +28,8 @@ const formInputs = [
 
 const Form = () => (
   <form className="form">
-    <h2 className="form-h2">Send us a message</h2>
-
+    <h3 className="form-h2"><b>Send us a message</b></h3>
+   
     {formInputs.map(input => (
       <label key={input.label} id={input.id} className="form-label">
         {input.label}
