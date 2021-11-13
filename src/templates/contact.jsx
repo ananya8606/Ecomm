@@ -14,7 +14,7 @@ const Contact = () => (
     <div className="contact-section">
       <Form />
       <Info />
-      {!loadMap ? <div>Loading...</div> : <GMap />}
+      <GMap />
     </div>
 </>
   )
