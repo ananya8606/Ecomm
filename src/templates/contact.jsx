@@ -31,6 +31,7 @@ const Contact = () => {
   }, []);
 
   return (
+<>
     <Breadcrumbs>
             <Link to="/">Home</Link>
             Contact us
@@ -40,6 +41,7 @@ const Contact = () => {
       <Info />
       {!loadMap ? <div>Loading...</div> : <GMap />}
     </div>
+</>
   );
 }
 export default Contact;
