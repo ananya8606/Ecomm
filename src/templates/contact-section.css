@@ -5,6 +5,8 @@
 }
 .center {
  object-fit:contain;
+width:800px;
+height:250px;
 }
 
 @media screen and (min-width: 799px) {
