@@ -1,10 +1,13 @@
 import React, { useEffect, useRef } from 'react';
+// API key of the google map
+const GOOGLE_MAP_API_KEY = '<ABQIAAAAvZMU4-DFRYtw1UlTj_zc6hT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQcT1h-VA8wQL5JBdsM5JWeJpukvw>';
+
 const GMap = ({ placeName }) => {
   const googleMapRef = useRef();
   let googleMap;
   useEffect(() => {
     const googleMapScript = document.createElement("script");
-    googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_API_KEY}&libraries=places`;
+    googleMapScript.src = `  `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAP_API_KEY}`; 
     googleMapScript.async = true;
     window.document.body.appendChild(googleMapScript);
     googleMapScript.addEventListener("load", () => {
