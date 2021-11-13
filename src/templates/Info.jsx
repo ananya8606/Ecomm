@@ -16,7 +16,7 @@ const contactDetails = [
     value: 'DIC Campus Ratu Road,Ranchi - JH 834001,INDIA.',
     icon: locationIcon,
   },
-  { value: '+1 234 567 8900', icon: phoneIcon },
+  { value: '+91 7654325689', icon: phoneIcon },
   { value: 'support@example.com', icon: emailIcon },
 ]
 
@@ -34,9 +34,9 @@ const renderIcons = () =>
 
 const Info = () => (
   <section className="info">
-    <h2 className="info-h2">Contact information</h2>
-    <h4>ECOMM HEAD OFFICE</h4>
-    <div className="info-details-container">{renderContactDetails()}</div>
+    <h3 className="info-h2">Contact information</h2>
+    <br>
+    <div className="info-details-container"><h5><b>ECOMM HEAD OFFICE</b></h5>{renderContactDetails()}</div>
     <div className="info-icons-container">{renderIcons()}</div>
   </section>
 )
