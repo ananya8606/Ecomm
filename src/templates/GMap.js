@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 
 const GMap = () => {
   const googleMapRef = useRef(null);
-googleMap = useRef(null);
+googleMap = null;
   useEffect(() => {
     googleMap = initGoogleMap();
     createMarker();
