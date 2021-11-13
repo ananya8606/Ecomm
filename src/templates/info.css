@@ -1,22 +1,22 @@
 .info {
-  text-align: left;
-  padding: 20px;
+  text-align:left;
+  padding:40px;
   background-color: var(--main-green);
   color: var(--white);
 }
 
 .info-h2 {
   text-transform: uppercase;
-  font-weight: 300;
-  margin: 0;
+  font-weight:300;
+  margin:20;
 }
 
 .info-details-container {
-  margin: 40px 0;
+  margin:40px 20px;
 }
 
 .info-detail {
-  font-weight: 600;
+  font-weight:600;
 }
 
 .info-icons-container {
@@ -26,7 +26,7 @@
 
 .info-icon {
   font-size: 3rem;
-  margin-right: 20px;
+  margin-right:40px;
   cursor: pointer;
 }
 
