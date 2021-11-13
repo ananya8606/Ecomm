@@ -4,14 +4,11 @@ const GMap = () => {
   const googleMapRef = useRef(null);
 let googleMap = useRef(null);
   useEffect(() => {
-    googleMap = initGoogleMap();
     createMarker();
   }, []);
 
-
-  // initialize the google map
   const initGoogleMap = () => {
-    return new window.google.maps.Map(googleMapRef.current, {
+    googleMap = new window.google.maps.Map(googleMapRef.current, {
       center: { lat: -34.397, lng: 150.644 },
       zoom: 8
     });
