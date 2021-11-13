@@ -1,5 +1,6 @@
 .contact-section {
   background-color: var(--white);
+  height:40px;
   width:100%;
   padding:100px;
 }
