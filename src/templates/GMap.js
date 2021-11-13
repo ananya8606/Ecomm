@@ -1,3 +1,4 @@
+import googleMapStyles from “./GoogelMapStyle”;
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 export class Maps extends React.Component {
   render() {
@@ -8,7 +9,7 @@ export class Maps extends React.Component {
     return (
       <Map
         google={this.props.google}
-        zoom={8}
+        zoom={15}
         style={mapStyles}
         initialCenter={{ lat: 9.761927, lng: 79.95244 }}
       >
