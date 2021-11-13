@@ -30,9 +30,9 @@ export default function AppProvider(props){
 
     return(
         <Auth0Provider
-            domain={process.env.REACT_APP_AUTH_DOMAIN}
-            clientId={process.env.REACT_APP_CLIENT_ID}
-            redirectUri={window.location.origin}
+         domain="dev-as-8ebns.us.auth0.com"
+         clientId="p8BTI0Yy9WjAiL4xIau26IpgZTP0jIYt"
+         redirectUri={window.location.origin}
         >
             <StoreProvider>
                 <Content {...props}/>
