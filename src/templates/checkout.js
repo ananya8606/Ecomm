@@ -21,15 +21,8 @@ export default function Checkout() {
         )
     }
 }
-class Checkout extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <CheckoutForm />
-        <Footer />
-      </div>
-    );
-  }
-}
-export default Checkout;
+
+   
+  
+
+
