@@ -3,7 +3,97 @@ import { useAuth0 } from '@auth0/auth0-react'
 import { Link, useHistory } from 'react-router-dom'
 import Breadcrumbs from '../components/Breadcrumbs'
 import CheckoutForm from './CheckoutForm'
+import React from 'react'
 
+import { Container, Col, Row } from "reactstrap"
+
+import ContactInfo from './ContactInfo'
+
+import ShippingMethod from './ShippingMethod'
+
+import Payment from './Payment';
+
+import Billing from './Billing';
+
+import Cart from './cart'
+
+import InfoReel from './InfoReel';
+
+function Checkout() {
+
+	return (
+
+            <Container>
+
+                <Row>
+
+                    <Col className="left-col-container" md="6">
+
+                        <ContactInfo />
+
+                        <ShippingMethod />
+
+                        <Payment />
+
+                        <Billing />
+
+                    </Col>
+
+                    <Col className="right-col-container pb-4" md="6">
+
+                        <Cart />
+
+                        <InfoReel />
+
+                    </Col>
+
+                </Row>
+
+            </Container>
+
+		);
+
+	}
+
+export default Checkout;
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+
+}
+
+export default CheckoutForm;
+
+    
+
+		
 export default function Checkout() {
     const { isAuthenticated } = useAuth0();
     const history = useHistory()
