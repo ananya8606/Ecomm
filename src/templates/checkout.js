@@ -17,15 +17,6 @@ const { isAuthenticated } = useAuth0();
         if(!isAuthenticated) history.push('/')
     }, [isAuthenticated, history]);
 
-	constructor(props) {
-        super(props);
-        
-        this.state = {
-            data : ""
-		};
-    
-    }
-
     formChild1(params) {
         this.setState({
           data : params
