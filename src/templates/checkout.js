@@ -9,7 +9,6 @@ import ShippingMethod from './form_components/ShippingMethod';
 import Payment from './form_components/Payment';
 import Billing from './form_components/Billing';
 import Cart from './cart';
-import InfoReel from './form_components/InfoReel';
 
 class Checkout extends Component {
 const { isAuthenticated } = useAuth0();
@@ -52,7 +51,6 @@ if(isAuthenticated) {
                     </Col>
                     <Col className="right-col-container pb-4" md="6">
                         <Cart />
-                        <InfoReel />
                     </Col>
                 </Row>
             </Container>
