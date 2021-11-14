@@ -1,48 +1,72 @@
-import React, { Component } from 'react';
-import { Container, Col, Row } from "reactstrap";
-import ContactInfo from './form_components/ContactInfo';
-import ShippingMethod from './form_components/ShippingMethod';
-import Payment from './form_components/Payment';
-import Billing from './form_components/Billing';
+import React from 'react'
+import { Container, Col, Row } from "reactstrap"
+import ContactInfo from './ContactInfo'
+import ShippingMethod from './ShippingMethod'
+import Payment from './Payment';
+import Billing from './Billing';
 
-import CartDetails from './form_components/CartDetails';
-import InfoReel from './form_components/InfoReel';
+import Cart from './cart'
+import InfoReel from './InfoReel';
 
-class CheckoutForm extends Component {
-	constructor(props) {
-        super(props);
-        
-        this.state = {
-            data : ""
-		};
-    
-    }
-
-    formChild1(params) {
-        this.setState({
-          data : params
-        })
-      }
-
-
-    render() {
-		return (
+function Checkout() {
+	
+return (
             <Container>
                 <Row>
                     <Col className="left-col-container" md="6">
                         <ContactInfo />
-                        <ShippingMethod callback={this.formChild1.bind(this)} />
+                        <ShippingMethod />
                         <Payment />
                         <Billing />
                     </Col>
                     <Col className="right-col-container pb-4" md="6">
-                        <CartDetails data={this.state.data} />
+                        <Cart />
                         <InfoReel />
                     </Col>
                 </Row>
             </Container>
 		);
 	}
+
+
+export default Checkout;
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+
 }
 
 export default CheckoutForm;
+
+    
+
+
+
+		
