@@ -1,5 +1,5 @@
-import React,{useEffect, Component} from 'react';
-import { useAuth0 } from '@auth0/auth0-react'
+import React,{useEffect} from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
 import { Link, useHistory } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { Container, Col, Row } from "reactstrap";
@@ -9,7 +9,7 @@ import Payment from './form_components/Payment';
 import Billing from './form_components/Billing';
 import Cart from './cart';
 
-class Checkout extends Component {
+ export default function Checkout() {  
 const { isAuthenticated } = useAuth0();
     const history = useHistory()
 
