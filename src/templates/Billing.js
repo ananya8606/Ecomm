@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from 'react'
 import { Alert, Button, Container, Col, Row, Form, FormGroup, Input, Label, ListGroup, ListGroupItem } from "reactstrap";
-import Toggle from "../Toggle";
-import CountryOptions from './input_options/countryOptions';
-import StateOptions from './input_options/stateOptions';
+import Toggle from './Toggle'
+import CountryOptions from './countryOptions'
+import StateOptions from './stateOptions'
 import PlusIcon from '../../assets/images/_ionicons_svg_md-add.png';
-
-export default class Billing extends Component {
+export default function  Billing() {
 const[checked,setchecked]=useState(false);
     handleChange = () => {
 setchecked(!this.state.checked) ;
