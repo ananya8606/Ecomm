@@ -34,7 +34,7 @@ export default function Cart() {
             return total;
         }, 0);
     }
-
+ 
     return(
         <>
         {
