@@ -33,6 +33,7 @@ const { isAuthenticated } = useAuth0();
       }
 
 if(isAuthenticated) {
+render() {
         return (
             <Breadcrumbs>
                 <Link to="/">Home</Link>
@@ -54,5 +55,5 @@ if(isAuthenticated) {
 		);
 	}
 }
-
+}
 export default Checkout;
