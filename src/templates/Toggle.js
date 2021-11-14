@@ -1,17 +1,15 @@
-import { Component } from "react";
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 
-export default function Toggle() {
-const [on, seton] = useState(false);
-const [off, setoff] = useState(true);
+const Toggle = () => {
+  const [isOff, setIsOff] = useState(true);
 
-  toggle = () => {
-seton(!this.state.on);
-setoff(!this.state.off);
-  };
-    const { children } = this.props;
-    return children({
-      on: this.state.on,
-      off: this.state.off,
-      toggle: this.toggle
-    });
+  return (
+    <button onClick={() => setIsOff(!isOff)}>{ isOff ? 'ON' : 'OFF' }</button>
+  );
 }
+
+ReactDOM.render(
+  <Toggle />,
+  document.getElementById('root')
+);
