@@ -35,10 +35,7 @@ const { isAuthenticated } = useAuth0();
 if(isAuthenticated) {
 render() {
         return (
-            <Breadcrumbs>
-                <Link to="/">Home</Link>
-                Checkout
-            </Breadcrumbs>
+            
             <Container>
                 <Row>
                     <Col className="left-col-container" md="6">
