@@ -1,8 +1,7 @@
 import React from 'react';
 import { Input } from "reactstrap";
 
-class stateOptions extends React.Component {
-    render() {
+function stateOptions() {
 		return (
 			<Input className="custom-select" type="select" name="coSelectState" id="coState">
                 <option value="" disabled="">State</option>
@@ -71,6 +70,4 @@ class stateOptions extends React.Component {
             </Input>
 		);
 	}
-}
-
 export default stateOptions;
