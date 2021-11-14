@@ -178,5 +178,4 @@ setchecked(!this.state.checked) ;
         { content }
       </Container>
     );
-  }
 }
