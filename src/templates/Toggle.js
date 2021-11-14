@@ -1,16 +1,12 @@
 import { Component } from "react";
 
 export default function Toggle() {
-  state = {
-    on: false,
-    off: true
-  };
+const [on, seton] = useState(false);
+const [off, setoff] = useState(true);
 
   toggle = () => {
-    this.setState({
-      on: !this.state.on,
-      off: !this.state.off
-    });
+seton(!this.state.on);
+setoff(!this.state.off);
   };
     const { children } = this.props;
     return children({
