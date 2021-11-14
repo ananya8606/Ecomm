@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, FormGroup, Input, ListGroup, ListGroupItem } from 'reactstrap'
-import Toggle from '../Toggle'
+import Toggle from './Toggle'
 import PropTypes from 'prop-types'
 function ShippingMethod() {
 const[standardShippingRate,setstandardShippingRate]=useState(0.00);
