@@ -1,28 +1,12 @@
-import React, { Component } from "react";
-
-import { Container, Row, Col, FormGroup, Input, ListGroup, ListGroupItem } from 'reactstrap';
-
-import Toggle from '../Toggle';
-
-import PropTypes from 'prop-types';
-
-class ShippingMethod extends Component {
-
-    constructor(props){
-
-        super(props)
-
-        this.state = {
-
-            standardShippingRate: 0.00,
-
-            priorityShippingRate: 11.41,
-
-            expressShippingRate: 24.95,
-
-        }
-
-    }
+import React from 'react'
+import { Container, Row, Col, FormGroup, Input, ListGroup, ListGroupItem } from 'reactstrap'
+import Toggle from '../Toggle'
+import PropTypes from 'prop-types'
+function ShippingMethod() {
+const[standardShippingRate,setstandardShippingRate]=useState(0.00);
+const[priorityShippingRate, setpriorityShippingRate]=useState(11.41);
+const[expressShippingRate, setexpressShippingRate]=useState(24.95);
+       
 
     setShippingRate = (event) => {
 
@@ -30,7 +14,6 @@ class ShippingMethod extends Component {
 
     }
 
-    render() {
 
         const { standardShippingRate, priorityShippingRate, expressShippingRate } = this.state;
 
@@ -162,7 +145,6 @@ class ShippingMethod extends Component {
 
     }
 
-}
 
 ShippingMethod.protoTypes = {
 
