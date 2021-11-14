@@ -1,8 +1,7 @@
 import React from 'react';
 import { Input } from "reactstrap";
 
-class countryOptions extends React.Component {
-    render() {
+function countryOptions()  {
 		return (
 			<Input className="custom-select" type="select" name="coSelectCountry" id="coCountry">
                 <option data-code="US" defaultValue="selected" value="United States">United States</option>
@@ -253,6 +252,6 @@ class countryOptions extends React.Component {
             </Input>
 		);
 	}
-}
+
 
 export default countryOptions;
