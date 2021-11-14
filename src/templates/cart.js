@@ -109,7 +109,7 @@ export default function Cart() {
                                 { isAuthenticated ?
                                     <Link to="/checkout" className="mt-4 text-center btn w-full bg-yellow-600 text-blue-50 font-semibold">Proceed To Checkout</Link>
                                     :
-                                    <button onClick={loginWithRedirect} className="text-center mt-4 btn w-full bg-yellow-600 text-blue-50 font-semibold">Login</button>
+                                    <button onClick={loginWithRedirect} className="text-center mt-4 btn w-full bg-yellow-600 text-blue-50 font-semibold">Place Order</button>
                                 }
                             </div>
                         </section>
