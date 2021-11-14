@@ -6,25 +6,14 @@ import StateOptions from './input_options/stateOptions';
 import PlusIcon from '../../assets/images/_ionicons_svg_md-add.png';
 
 export default class Billing extends Component {
-    constructor(props){
-        super(props)
-
-        this.state = { checked: false };
-    }
-
+const[checked,setchecked]=useState(false);
     handleChange = () => {
-        this.setState({
-            checked: !this.state.checked
-          });
+setchecked(!this.state.checked) ;
     }
 
     hideContent = () => {
-        this.setState({
-            checked: false
-          });
+            setchecked(false) ;
     }
-
-  render() {
     const content = this.state.checked 
       ? 
       <Form>
