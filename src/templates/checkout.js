@@ -51,7 +51,7 @@ if(isAuthenticated) {
                         <Billing />
                     </Col>
                     <Col className="right-col-container pb-4" md="6">
-                        <Cart data={this.state.data} />
+                        <Cart />
                         <InfoReel />
                     </Col>
                 </Row>
