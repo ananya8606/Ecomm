@@ -1,5 +1,5 @@
 import { Component } from "react";
-export default class Toggle extends Component {
+export default function Toggle() {
   state = {
     on: false,
     off: true
