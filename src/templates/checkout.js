@@ -32,8 +32,6 @@ const { isAuthenticated } = useAuth0();
         })
       }
 
-
-    render() {
 if(isAuthenticated) {
         return (
             <Breadcrumbs>
@@ -55,7 +53,6 @@ if(isAuthenticated) {
             </Container>
 		);
 	}
-}
 }
 
 export default Checkout;
