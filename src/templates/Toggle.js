@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-
-const Toggle = () => {
-  const [isOff, setIsOff] = useState(true);
-
-  return (
-    <button onClick={() => setIsOff(!isOff)}>{ isOff ? 'ON' : 'OFF' }</button>
-  );
-}
-
-
+import { Component } from "react";
+export default class Toggle extends Component {
+  state = {
+    on: false,
+    off: true
+  };
+  const [on, seton] = useState("false");
+const[off, setoff]=useState("true");
+  const handleToggle = () => {
+    seton(!on);
+    setoff(!off);
+  };
+return({handleToggle});
+  }
