@@ -18,7 +18,18 @@ export default function Checkout() {
                 <Link to="/">Home</Link>
                 Checkout
             </Breadcrumbs>
-<CheckoutForm />
         )
     }
 }
+class Checkout extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <CheckoutForm />
+        <Footer />
+      </div>
+    );
+  }
+}
+export default Checkout;
