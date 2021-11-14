@@ -9,13 +9,22 @@ import Payment from './form_components/Payment';
 import Billing from './form_components/Billing';
 import Cart from './cart';
 
- export default function Checkout() {  
+class Checkout extends Component {
 const { isAuthenticated } = useAuth0();
     const history = useHistory()
 
     useEffect(() => {
         if(!isAuthenticated) history.push('/')
     }, [isAuthenticated, history]);
+
+	constructor(props) {
+        super(props);
+        
+        this.state = {
+            data : ""
+		};
+    
+    }
 
     formChild1(params) {
         this.setState({
