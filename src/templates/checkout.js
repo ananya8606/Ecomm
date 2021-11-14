@@ -15,15 +15,21 @@ const { isAuthenticated } = useAuth0();
 
     useEffect(() => {
         if(!isAuthenticated) history.push('/')
-    }, [isAuthenticated, history])
+    }, [isAuthenticated, history]);
 
     formChild1(params) {
         this.setState({
           data : params
         })
       }
-
 if(isAuthenticated) {
+        return (
+            <Breadcrumbs>
+                <Link to="/">Home</Link>
+                Checkout
+            </Breadcrumbs>
+        )
+    }
 render() {
         return (
             <Container>
@@ -41,6 +47,5 @@ render() {
             </Container>
 		);
 	}
-}
 }
 export default Checkout;
