@@ -35,7 +35,6 @@ const { isAuthenticated } = useAuth0();
 if(isAuthenticated) {
 render() {
         return (
-            
             <Container>
                 <Row>
                     <Col className="left-col-container" md="6">
