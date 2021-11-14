@@ -2,21 +2,11 @@ import React, { Component } from 'react'
 import { Button, Form, FormGroup, Input } from "reactstrap";
 import CreditCardInput from 'react-credit-card-input';
 
-export class Payment extends Component {
-    constructor(props) {
-		super(props);
-		
-		this.state = {
-			paymentSelection: 'credit',
-		}
-
-	}
-
-	toggleContent = (event) => {
+function Payment() {
+const[paymentSelection,setpaymentSelection]=useState('credit') ;
+    toggleContent = (event) => {
 		event.preventDefault();
-		this.setState({
-			paymentSelection: event.target.value,
-		})
+			setpaymentSelection(event.target.value);
 	}
 
 	switchContent = (value) => {
@@ -68,7 +58,6 @@ export class Payment extends Component {
 		}
 	}
 
-    render() {
 		const { paymentSelection } = this.state;
 
         return (
@@ -80,6 +69,5 @@ export class Payment extends Component {
             </div>
         );
     }
-}
 
 export default Payment
