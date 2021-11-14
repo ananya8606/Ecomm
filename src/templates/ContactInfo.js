@@ -1,12 +1,11 @@
 import React from "react";
 import { Alert, Col, Row, Form, FormGroup, Input, Label, Button } from "reactstrap";
-import Toggle from '../Toggle';
-import CountryOptions from './input_options/countryOptions';
-import StateOptions from './input_options/stateOptions';
+import Toggle from './Toggle';
+import CountryOptions from './countryOptions';
+import StateOptions from './stateOptions';
 import PlusIcon from '../../assets/images/_ionicons_svg_md-add.png';
 
-export default class FormContactInfo extends React.Component {
-  render() {
+export default function FormContactInfo() {
     return (
 		<Form className="container-fluid contact-info-container">
 			<h2 className="mb-3">Contact Information</h2>
@@ -84,4 +83,3 @@ export default class FormContactInfo extends React.Component {
 		</Form>
     );
   }
-}
