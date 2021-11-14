@@ -15,7 +15,7 @@ const { isAuthenticated } = useAuth0();
 
     useEffect(() => {
         if(!isAuthenticated) history.push('/')
-    }, [isAuthenticated, history]);
+    }, [isAuthenticated, history])
 
     formChild1(params) {
         this.setState({
