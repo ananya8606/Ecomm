@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export default class Toggle extends Component {
+export default function Toggle() {
   state = {
     on: false,
     off: true
@@ -12,13 +12,10 @@ export default class Toggle extends Component {
       off: !this.state.off
     });
   };
-
-  render() {
     const { children } = this.props;
     return children({
       on: this.state.on,
       off: this.state.off,
       toggle: this.toggle
     });
-  }
 }
