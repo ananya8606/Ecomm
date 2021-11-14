@@ -19,6 +19,7 @@ export default function Checkout() {
 
     if(isAuthenticated) {
         return (
+<>
             <Breadcrumbs>
                 <Link to="/">Home</Link>
                 Checkout
@@ -36,6 +37,7 @@ export default function Checkout() {
                     </Col>
                 </Row>
             </Container>
+</>
 		);
 	}
 
