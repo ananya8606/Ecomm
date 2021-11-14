@@ -7,7 +7,7 @@ import ContactInfo from './form_components/ContactInfo';
 import ShippingMethod from './form_components/ShippingMethod';
 import Payment from './form_components/Payment';
 import Billing from './form_components/Billing';
-import Cart from './cart';
+import Cart from './cart'
 
 class Checkout extends Component {
 const { isAuthenticated } = useAuth0();
