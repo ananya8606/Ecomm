@@ -18,8 +18,7 @@ export default function Checkout() {
                 <Link to="/">Home</Link>
                 Checkout
             </Breadcrumbs>
+<CheckoutForm />
         )
     }
-
-    return(<CheckoutForm />);
 }
