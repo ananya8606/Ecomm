@@ -9,7 +9,4 @@ const Toggle = () => {
   );
 }
 
-ReactDOM.render(
-  <Toggle />,
-  document.getElementById('root')
-);
+
