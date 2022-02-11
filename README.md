@@ -2,13 +2,10 @@
 
 An eCommerce portal for selling handmade bamboo products developed with ReactJS.
 
-Demo: https://ecomm-xi.vercel.app/
+# DEMO:
 
-# Live demo of Ecomm :-
+https://user-images.githubusercontent.com/52853286/153620664-53305e63-ee28-4741-935a-21257e45a2bd.mp4
 
-Click the screenshot given below:-
-
-[![ ](https://sendeyo.com/updownload/file/script/1e17d8c434775eb3a1b2334ca5d9c5f4.webp)](https://youtu.be/ezVSU511EPY)
 
 # Getting Started with Create React App
 
