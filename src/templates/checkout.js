@@ -2,6 +2,7 @@ import React, {useEffect } from 'react'
 import { useAuth0 } from '@auth0/auth0-react'
 import {Link,useHistory } from 'react-router-dom'
 import Breadcrumbs from '../components/Breadcrumbs'
+import Cart1 from './cart1.js'
 import './checkout.css'
 export default function Checkout() {
     const { isAuthenticated } = useAuth0();
@@ -28,6 +29,7 @@ export default function Checkout() {
                 <span class="text-primary">Your cart</span>
                 <span class="badge bg-primary rounded-pill">3</span>
             </h4>
+		<Cart1 />
               <ul class="list-group mb-3">
                 <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
