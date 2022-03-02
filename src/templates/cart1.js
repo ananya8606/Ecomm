@@ -53,14 +53,15 @@ export default function Cart1() {
                                 const {name, price, amount, image, color, max} = item;
                                 return (
                                     <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
-                                        <div class="row">
+                                        
                                          <div class="col-sm-4">
+                                          <div class="row">
                                             <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
                                            </div>
-                                           <div class="col-sm-4">
+                                           <div class="row">
                                                 <h5 className="text-base md:text-md lg:text-lg font-semibold">{name}</h5>
                                             </div>
-                                            <div class="col-sm-4">
+                                            <div class="row">
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
                                                 <div className="md:hidden">{(price*20).toCurrency()}</div>
                                             </div>
