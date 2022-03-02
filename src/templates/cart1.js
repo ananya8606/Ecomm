@@ -64,7 +64,7 @@ export default function Cart1() {
                                         </div>
                                         <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
-                                            className="text-3xl md:text-4xl"
+                                            className="text-1xl md:text-2xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
