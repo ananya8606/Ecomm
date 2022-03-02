@@ -98,6 +98,17 @@ export default function Cart1() {
                                         Order Total:
                                         <span>{(getSubtotal() + 75).toCurrency()}</span>
                                     </h4>
+              <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Promo code</h6>
+                        <small>SALE500</small>
+                    </div>
+                    <span class="text-success">−$ 0.1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (Rupee)</span>
+                    <strong>{(getSubtotal() + 65).toCurrency()}</strong>
+                </li>
                                 </article>
                             </div>
                         </section>
