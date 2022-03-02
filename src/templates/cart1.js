@@ -53,7 +53,7 @@ export default function Cart1() {
                             cart.map((item, i) => {
                                 const {name, price, amount, image, color, max} = item;
                                 return (
-                                    <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-4 place-items-center mb-5 capitalize">
+                                    <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
                                         <div className="flex w-full gap-2 md:gap-4 items-center">
                                             <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
                                             <div>
