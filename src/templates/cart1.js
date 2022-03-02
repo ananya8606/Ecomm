@@ -48,20 +48,19 @@ export default function Cart1() {
                                 <span className="w-8 h-8"></span>
                             </div>
                             <hr className="mt-6"/>
-                                  </article>
+                        </article>
                         {
                             cart.map((item, i) => {
                                 const {name, price, amount, image, color, max} = item;
                                 return (
-                       <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
+                                    <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
                                         <div className="flex w-full gap-2 md:gap-4 items-center">
-                                            <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
+                                            <img alt={name} className="object-cover w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-md" src={image}/>
                                             <div>
                                                 <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
                                                 <div className="lg:hidden">{(price*20).toCurrency()}</div>
                                             </div>
-                                        </div>
                                         </div>
                                         <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
@@ -79,10 +78,6 @@ export default function Cart1() {
                             })
                         }
                         <hr className="mt-10"/>
-                        <div className="flex justify-between py-8">
-                            <Link to="/products" className="btn-sm w-max bg-blue-500 text-white text-bold">Continue Shopping</Link>
-                            <button onClick={handleClearCart} className="btn-sm font-bold text-red-900 bg-red-300">Clear Cart</button>
-                        </div>
                         <section className="flex justify-center lg:justify-end">
                             <div className="w-full md:w-auto">
                                 <article className="md:border px-4 py-2 md:px-12 md:py-6">
@@ -99,7 +94,8 @@ export default function Cart1() {
                                         Order Total:
                                         <span>{(getSubtotal() + 75).toCurrency()}</span>
                                     </h4>
-              <li class="list-group-item d-flex justify-content-between bg-light">
+                                    <hr className="my-4"/>
+                                     <li class="list-group-item d-flex justify-content-between bg-light">
                     <div class="text-success">
                         <h6 class="my-0">Promo code</h6>
                         <small>SALE500</small>
@@ -109,7 +105,7 @@ export default function Cart1() {
                 <li class="list-group-item d-flex justify-content-between">
                     <span>Total (Rupee)</span>
                     <strong>{(getSubtotal() - 25).toCurrency()}</strong>
-                </li>
+                </li>   
                                 </article>
                             </div>
                         </section>
