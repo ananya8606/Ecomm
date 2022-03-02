@@ -4,6 +4,8 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary{
     background-color: #8064A2;
 }
+
+  
