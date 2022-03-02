@@ -44,7 +44,6 @@ export default function Cart1() {
                                 <h5>Item</h5>
                                 <h5>Price</h5>
                                 <h5>Quantity</h5>
-                                <h5>Subtotal</h5>
                                 <span className="w-8 h-8"></span>
                             </div>
                             <hr className="mt-6"/>
