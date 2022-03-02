@@ -24,7 +24,7 @@ export default function Checkout() {
         <h2>Checkout form</h2>
     </div>
     <div class="row g-5">
-        <div class="col-md-5 col-lg-4 order-md-last">
+        <div class="col-md-6 col-lg-5 order-md-last">
             <h4 class="d-flex justify-content-between align-items-center mb-3">
                 <span class="text-primary">Your cart</span>
                 <span class="badge bg-primary rounded-pill">3</span>
@@ -106,7 +106,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <label for="zip" class="form-label">Zip</label>
                         <input type="text" class="form-control" id="zip" placeholder="10001" required />
                         <div class="invalid-feedback">
@@ -151,7 +151,7 @@ export default function Checkout() {
                 </div>
 
                 <div class="row gy-3">
-                    <div class="col-md-2">
+                    <div class="col-md-4">
                         <label for="cc-name" class="form-label">Name on card</label>
                         <input type="text" class="form-control" id="cc-name" placeholder="" required />
                         <small class="text-muted">Full name as displayed on card</small>
@@ -160,7 +160,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-4">
                         <label for="cc-number" class="form-label">Credit card number</label>
                         <input type="text" class="form-control" id="cc-number" placeholder="1111-2222-3333-4444" required />
                         <div class="invalid-feedback">
@@ -168,7 +168,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-md-1">
+                    <div class="col-md-3">
                         <label for="cc-expiration" class="form-label">Expiration</label>
                         <input type="text" class="form-control" id="cc-expiration" placeholder="02/2022" required />
                         <div class="invalid-feedback">
@@ -176,7 +176,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <label for="cc-cvv" class="form-label">CVV</label>
                         <input type="text" class="form-control" id="cc-cvv" placeholder="352" required />
                         <div class="invalid-feedback">
