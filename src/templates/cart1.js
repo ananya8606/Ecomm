@@ -59,7 +59,6 @@ export default function Cart1() {
                                                 <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
                                              </div>
-                                             </div>
                                           <div className="flex w-full gap-2 md:gap-4 items-center>
                                         <Counter
                                             className="text-1xl md:text-2xl"
