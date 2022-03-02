@@ -54,7 +54,7 @@ export default function Cart1() {
                                 return (
                                     <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
                                         
-                                         <div class="col-sm-4">
+                                         <div class="col-sm-6">
                                           <div class="row">
                                             <img alt={name} className="object-cover w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-md" src={image}/>
                                            </div>
