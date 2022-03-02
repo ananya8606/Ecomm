@@ -56,8 +56,8 @@ export default function Cart1() {
                                     <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-6 place-items-center mb-7 capitalize">
                                         <div className="flex w-full gap-2 md:gap-4 items-center">
                                             <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
-                                            <div>
                                                 <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
+                                                </div>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
                                                 <div className="lg:hidden">{(price*20).toCurrency()}</div>
                                             </div>
