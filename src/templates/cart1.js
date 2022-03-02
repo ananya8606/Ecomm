@@ -62,19 +62,17 @@ export default function Cart1() {
                                                 <h5 className="text-base md:text-md lg:text-lg font-semibold">{name}</h5>
                                             </div>
                                             <div class="row">
-                                                <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
-                                             <div className="md:hidden">{(price*20).toCurrency()}</div>
+                                                <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>  
                                         </div>
-                                        </div>
+                                         </div>
                                           <div class="col-sm-4">
+                                              <div className="md:hidden">{(price*20).toCurrency()}</div>
                                         <Counter
                                             className="text-1xl md:text-2xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
                                         />
-                                        </div>
-                                        <div class="col-sm-4">
                                         <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
                                         </div>
                                         <div class="col-sm-4">
