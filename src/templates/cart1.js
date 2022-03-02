@@ -56,7 +56,7 @@ export default function Cart1() {
                                         
                                          <div class="col-sm-4">
                                           <div class="row">
-                                            <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
+                                            <img alt={name} className="object-cover w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-md" src={image}/>
                                            </div>
                                            <div class="row">
                                                 <h5 className="text-base md:text-md lg:text-lg font-semibold">{name}</h5>
