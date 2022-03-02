@@ -46,7 +46,7 @@ export default function Checkout() {
             <h4 class="mb-3">Billing address</h4>
             <form action="/action_page.php" class="needs-validation" novalidate>
                 <div class="row g-3">
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <label for="firstName" class="form-label">First name</label>
                         <input type="text" class="form-control" id="firstName" placeholder="" required />
                         <div class="invalid-feedback">
@@ -54,7 +54,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-4">
                         <label for="lastName" class="form-label">Last name</label>
                         <input type="text" class="form-control" id="lastName" placeholder="" required />
                         <div class="invalid-feedback">
