@@ -29,28 +29,9 @@ export default function Checkout() {
                 <span class="text-primary">Your cart</span>
                 <span class="badge bg-primary rounded-pill">3</span>
             </h4>
-		<Cart1 />
               <ul class="list-group mb-3">
                 <li class="list-group-item d-flex justify-content-between lh-sm">
-                    <div>
-                        <h6 class="my-0">Nike jeans</h6>
-                        <small class="text-muted">Best Quality</small>
-                    </div>
-                    <span class="text-muted">₹500</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                    <div>
-                        <h6 class="my-0">Shoe from bata</h6>
-                        <small class="text-muted">Best product</small>
-                    </div>
-                    <span class="text-muted">₹1000</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                    <div>
-                        <h6 class="my-0">Focut shirt </h6>
-                        <small class="text-muted">Ladki pat jayegi</small>
-                    </div>
-                    <span class="text-muted">₹500</span>
+                   <Cart1 />
                 </li>
                 <li class="list-group-item d-flex justify-content-between bg-light">
                     <div class="text-success">
