@@ -78,6 +78,10 @@ export default function Cart1() {
                             })
                         }
                         <hr className="mt-10"/>
+                        <div className="flex justify-between py-8">
+                            <Link to="/products" className="btn-sm w-max bg-blue-500 text-white text-bold">Continue Shopping</Link>
+                            <button onClick={handleClearCart} className="btn-sm font-bold text-red-900 bg-red-300">Clear Cart</button>
+                        </div>
                         <section className="flex justify-center lg:justify-end">
                             <div className="w-full md:w-auto">
                                 <article className="md:border px-4 py-2 md:px-12 md:py-6">
