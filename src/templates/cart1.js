@@ -67,13 +67,14 @@ export default function Cart1() {
                                          </div>
                                           <div class="col-sm-4">
                                               <div className="md:hidden">{(price*20).toCurrency()}</div>
+                                              <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
                                         <Counter
                                             className="text-1xl md:text-2xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
                                         />
-                                        <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
+                                        <h5 className="hidden lg:block">{(amount * price).toCurrency()}</h5>
                                         </div>
                                         <div class="col-sm-4">
                                         <button className="block ml-3 md:ml-0 w-7 h-7 p-2 bg-red-600 text-white rounded" onClick={() => handleDeleteItem(i)}>
