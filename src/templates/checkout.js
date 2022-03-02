@@ -33,17 +33,6 @@ export default function Checkout() {
                 <li class="list-group-item d-flex justify-content-between lh-sm">
                    <Cart1 />
                 </li>
-                <li class="list-group-item d-flex justify-content-between bg-light">
-                    <div class="text-success">
-                        <h6 class="my-0">Promo code</h6>
-                        <small>SALE500</small>
-                    </div>
-                    <span class="text-success">−₹500</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                    <span>Total (Rupee)</span>
-                    <strong>₹1500</strong>
-                </li>
             </ul>
 
             <form class="card p-2">
