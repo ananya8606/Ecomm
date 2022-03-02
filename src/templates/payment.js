@@ -197,7 +197,7 @@ export default class Payment extends React.Component {
                     </div>
                 </div>
 
-                <hr class="my-4">
+                <hr class="my-4" />
 
                 <button class="w-100 btn btn-danger btn-lg" type="submit">Continue to checkout</button>
             </form>
