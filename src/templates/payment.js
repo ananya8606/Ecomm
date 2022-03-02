@@ -127,7 +127,7 @@ export default class Payment extends React.Component {
                     </div>
                 </div>
 
-                <hr class="my-4">
+                <hr class="my-4" />
 
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="same-address" />
@@ -139,7 +139,7 @@ export default class Payment extends React.Component {
                     <label class="form-check-label" for="save-info">Save this information for next time</label>
                 </div>
 
-                <hr class="my-4">
+                <hr class="my-4" />
 
                 <h4 class="mb-3">Payment</h4>
 
