@@ -63,7 +63,7 @@ export default function Checkout() {
                     </div>
 
 
-                    <div class="col-9">
+                    <div class="col-6">
                         <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
                         <input type="email" class="form-control" id="email" placeholder="you@example.com" />
                         <div class="invalid-feedback">
@@ -71,7 +71,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-9">
+                    <div class="col-6">
                         <label for="address" class="form-label">Address</label>
                         <input type="text" class="form-control" id="address" placeholder="Plaza street" required />
                         <div class="invalid-feedback">
@@ -79,7 +79,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-9">
+                    <div class="col-6">
                         <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
                         <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" />
                     </div>
@@ -115,7 +115,7 @@ export default function Checkout() {
                     </div>
                 </div>
 
-                <hr class="my-4" />
+                <hr class="my-2" />
 
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="same-address" />
@@ -127,7 +127,7 @@ export default function Checkout() {
                     <label class="form-check-label" for="save-info">Save this information for next time</label>
                 </div>
 
-                <hr class="my-4" />
+                <hr class="my-2" />
 
                 <h4 class="mb-3">Payment</h4>
 
@@ -185,7 +185,7 @@ export default function Checkout() {
                     </div>
                 </div>
 
-                <hr class="my-4" />
+                <hr class="my-2" />
 
                 <button class="w-100 btn btn-success btn-lg text-white" type="submit">Continue to checkout</button>
             </form>
