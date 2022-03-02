@@ -48,30 +48,26 @@ export default function Cart1() {
                                 <span className="w-8 h-8"></span>
                             </div>
                             <hr className="mt-6"/>
-                        </article>
-                        {
-                            cart.map((item, i) => {
-                                const {name, price, amount, image, color, max} = item;
-                                return (
-                                    <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-6 place-items-center mb-7 capitalize">
+                       <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
                                         <div className="flex w-full gap-2 md:gap-4 items-center">
                                             <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
+                                            <div>
                                                 <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
-                                             </div>
+                                                <div className="lg:hidden">{(price*20).toCurrency()}</div>
+                                            </div>
+                                        </div>
+                                        <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
-                                            className="text-1xl md:text-2xl"
+                                            className="text-3xl md:text-4xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
                                         />
-                                          <div className="flex w-full gap-2 md:gap-4 items-center>
-                                         <div className="lg:hidden">{(price*20).toCurrency()}</div>
-                                        <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
+                                        <h5 className="hidden lg:block">{(amount * price).toCurrency()}</h5>
                                         <button className="block ml-3 md:ml-0 w-7 h-7 p-2 bg-red-600 text-white rounded" onClick={() => handleDeleteItem(i)}>
                                             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512"><path d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"></path></svg>
                                         </button>
-                                      </div>
                                     </article>
                                 )
                             })
