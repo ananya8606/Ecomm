@@ -13,6 +13,10 @@ export default function Checkout() {
     if(isAuthenticated) {
         return (
 <>
+		<Breadcrumbs>
+                <Link to="/">Home</Link>
+                Checkout
+            </Breadcrumbs>
 		{Payment}
 </>
 		);
