@@ -42,8 +42,8 @@ export default function Cart1() {
                         <article className="hidden lg:block py-10">
                             <div className="grid text-center" style={{gridTemplateColumns: '1fr 1fr 1fr 1fr auto'}}>
                                 <h5>Item</h5>
-                                <h5>Price</h5>
                                 <h5>Quantity</h5>
+                                 <h5>Price</h5>
                                 <span className="w-8 h-8"></span>
                             </div>
                             <hr className="mt-6"/>
@@ -66,16 +66,16 @@ export default function Cart1() {
                                              <div className="md:hidden">{(price*20).toCurrency()}</div>
                                         </div>
                                         </div>
-                                        <div class="col-sm-4">
-                                        <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
-                                        </div>
-                                        <div class="col-sm-4">
+                                          <div class="col-sm-4">
                                         <Counter
                                             className="text-1xl md:text-2xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
                                         />
+                                        </div>
+                                        <div class="col-sm-4">
+                                        <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
                                         </div>
                                         <div class="col-sm-4">
                                         <button className="block ml-3 md:ml-0 w-7 h-7 p-2 bg-red-600 text-white rounded" onClick={() => handleDeleteItem(i)}>
