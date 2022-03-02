@@ -18,7 +18,7 @@ export default function Checkout() {
                 <Link to="/">Home</Link>
                 Checkout
             </Breadcrumbs>
-		<main>
+		<main class="p-2">
     <div class="py-5 text-center">
         <h2>Checkout form</h2>
     </div>
@@ -28,7 +28,7 @@ export default function Checkout() {
                 <span class="text-primary">Your cart</span>
                 <span class="badge bg-primary rounded-pill">3</span>
             </h4>
-            <ul class="list-group mb-3">
+              <ul class="list-group mb-3">
                 <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
                         <h6 class="my-0">Nike jeans</h6>
