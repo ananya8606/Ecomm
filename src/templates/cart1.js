@@ -55,16 +55,16 @@ export default function Cart1() {
                                 return (
                                     <article key={i} className="grid cart-grid-cols-3 lg:cart-grid-cols-5 place-items-center mb-6 capitalize">
                                         <div className="flex w-full gap-2 md:gap-4 items-center">
-                                            <img alt={name} className="object-cover w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-md" src={image}/>
+                                            <img alt={name} className="object-cover w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-md" src={image}/>
                                             <div>
-                                                <h5 className="text-base md:text-lg lg:text-xl font-semibold">{name}</h5>
+                                                <h5 className="text-base md:text-md lg:text-lg font-semibold">{name}</h5>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
-                                                <div className="lg:hidden">{(price*20).toCurrency()}</div>
+                                                <div className="md:hidden">{(price*20).toCurrency()}</div>
                                             </div>
                                         </div>
-                                        <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
+                                        <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
                                         <Counter
-                                            className="text-3xl md:text-4xl"
+                                            className="text-1xl md:text-2xl"
                                             count={amount}
                                             setCount={(value) => handleAmountChange(value, max, i)}
                                             maxNum={max}
