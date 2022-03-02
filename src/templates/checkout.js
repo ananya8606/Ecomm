@@ -215,7 +215,7 @@ export default function Checkout() {
 
                 <hr class="my-4" />
 
-                <button class="w-100 btn btn-primary btn-lg" type="submit"><div class="b">Continue to checkout</div></button>
+                <button class="w-100 btn btn-primary btn-lg text-dark" type="submit">Continue to checkout</button>
             </form>
         </div>
     </div>
