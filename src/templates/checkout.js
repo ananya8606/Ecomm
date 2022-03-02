@@ -24,7 +24,7 @@ export default function Checkout() {
         <h2>Checkout form</h2>
     </div>
     <div class="row g-5">
-        <div class="col-md-5 col-lg-4 order-md-last">
+        <div class="col-md-7 col-lg-6 order-md-last">
             <h4 class="d-flex justify-content-between align-items-center mb-3">
                 <span class="text-primary">Your cart</span>
                 <span class="badge bg-primary rounded-pill">3</span>
@@ -63,7 +63,7 @@ export default function Checkout() {
                     </div>
 
 
-                    <div class="col-12">
+                    <div class="col-9">
                         <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
                         <input type="email" class="form-control" id="email" placeholder="you@example.com" />
                         <div class="invalid-feedback">
@@ -71,7 +71,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-9">
                         <label for="address" class="form-label">Address</label>
                         <input type="text" class="form-control" id="address" placeholder="Plaza street" required />
                         <div class="invalid-feedback">
@@ -79,7 +79,7 @@ export default function Checkout() {
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-9">
                         <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
                         <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" />
                     </div>
