@@ -66,10 +66,6 @@ export default function Cart1() {
                                         </div>
                                          </div>
                                           <div class="col-sm-4">
-                                              <div className="md:hidden">{(price*20).toCurrency()}</div>
-                                              <h5 className="hidden md:block">{(price*20).toCurrency()}</h5>
-                                            </div>
-                                          <div class="col-sm-4">
                                         <Counter
                                             className="text-1xl md:text-2xl"
                                             count={amount}
