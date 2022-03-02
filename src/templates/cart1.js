@@ -60,8 +60,6 @@ export default function Cart1() {
                                                 </div>
                                                 <div className="flex items-center gap-2 text-sm lg:text-base">Color: <div style={{background: color }} className="w-3 h-3 lg:w-4 lg:h-4 rounded"/></div>
                                                 <div className="lg:hidden">{(price*20).toCurrency()}</div>
-                                            </div>
-                                        </div>
                                         <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
                                             className="text-1xl md:text-2xl"
