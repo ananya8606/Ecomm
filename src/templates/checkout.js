@@ -72,7 +72,7 @@ export default function Checkout() {
         </div>
         <div class="col-md-7 col-lg-8">
             <h4 class="mb-3">Billing address</h4>
-            <form action="/tutorial/action.html" class="needs-validation" novalidate>
+            <form action="/action_page.php" class="needs-validation" novalidate>
                 <div class="row g-3">
                     <div class="col-sm-6">
                         <label for="firstName" class="form-label">First name</label>
@@ -136,7 +136,7 @@ export default function Checkout() {
 
                     <div class="col-md-3">
                         <label for="zip" class="form-label">Zip</label>
-                        <input type="text" class="form-control" id="zip" placeholder="" required />
+                        <input type="text" class="form-control" id="zip" placeholder="10001" required />
                         <div class="invalid-feedback">
                             Zip code required.
                         </div>
@@ -190,7 +190,7 @@ export default function Checkout() {
 
                     <div class="col-md-6">
                         <label for="cc-number" class="form-label">Credit card number</label>
-                        <input type="text" class="form-control" id="cc-number" placeholder="" required />
+                        <input type="text" class="form-control" id="cc-number" placeholder="1111-2222-3333-4444" required />
                         <div class="invalid-feedback">
                             Credit card number is required
                         </div>
@@ -198,7 +198,7 @@ export default function Checkout() {
 
                     <div class="col-md-3">
                         <label for="cc-expiration" class="form-label">Expiration</label>
-                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required />
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="02/2022" required />
                         <div class="invalid-feedback">
                             Expiration date required
                         </div>
@@ -206,7 +206,7 @@ export default function Checkout() {
 
                     <div class="col-md-3">
                         <label for="cc-cvv" class="form-label">CVV</label>
-                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required />
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="352" required />
                         <div class="invalid-feedback">
                             Security code required
                         </div>
