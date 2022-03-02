@@ -57,6 +57,7 @@ export default function Cart1() {
                                                 <div className="lg:hidden">{(price*20).toCurrency()}</div>
                                             </div>
                                         </div>
+                                        </div>
                                         <h5 className="hidden lg:block">{(price*20).toCurrency()}</h5>
                                         <Counter
                                             className="text-3xl md:text-4xl"
