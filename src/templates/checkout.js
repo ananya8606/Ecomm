@@ -66,7 +66,7 @@ export default function Checkout() {
             <form class="card p-2">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Promo code"/>
-                    <button type="submit" class="btn btn-primary">Redeem</button>
+                    <button type="submit" class="btn btn-success text-white">Redeem</button>
                 </div>
             </form>
         </div>
@@ -215,7 +215,7 @@ export default function Checkout() {
 
                 <hr class="my-4" />
 
-                <button class="w-100 btn btn-primary btn-lg text-dark" type="submit">Continue to checkout</button>
+                <button class="w-100 btn btn-success btn-lg text-white" type="submit">Continue to checkout</button>
             </form>
         </div>
     </div>
